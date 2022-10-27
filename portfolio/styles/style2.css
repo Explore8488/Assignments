@@ -1,0 +1,15 @@
+button{
+    background-color: rgb(30, 70, 116);
+    color: white;
+    padding: 2%;
+}
+.all{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3%;
+  padding-left: 40%;
+  margin-right: -70%;
+}
+img{
+  width:100%;
+}

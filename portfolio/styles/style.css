@@ -1,0 +1,58 @@
+body{margin: 2%;
+}
+nav{
+    background-color: black;
+    color: white;
+   
+    
+    
+}
+
+nav > ul{
+    list-style: none;
+     justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 5%;
+}
+nav > ul > li{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    margin: 4%;
+}
+nav > ul > li > a{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.photo{
+    width: 100%;
+}
+
+.right{
+    margin-left: 10%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.active{
+    background-color: rgb(39, 160, 134);
+    width: 120%;
+    padding: 2%;
+    color: black;
+}
